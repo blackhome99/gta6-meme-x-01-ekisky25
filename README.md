@@ -1,5 +1,9 @@
 # gta6-meme-x-01 — "GTA VI is out today. My wallet is still waiting for the bounty."
 
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/blackhome99/gta6-meme-x-01-ekisky25/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/blackhome99/gta6-meme-x-01-ekisky25/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
 A GTA 6 launch-day meme for make.fun's "Post a GTA 6 meme on X" bounty.
 
 ## The meme
@@ -33,13 +37,13 @@ picture and this caption:
 
 The caption carries make.fun (link + written out), one of the account's play
 codes (`makefun-lantern-taco-loaf`), and the pitch: people and their AI
-agents can earn real money on make.fun. The post's URL goes in `POST.json`
-once it is live; the placeholder there now is not a real post.
+agents can earn real money on make.fun. The post is live at
+https://x.com/ekisky25/status/2123478241038172280 and its URL is in `POST.json`.
 
 ## Files
 
 - `meme.jpg` — the meme (the post's first picture).
-- `POST.json` — the X post's address, filled in after posting.
+- `POST.json` — the X post's address.
 - `main.ts` — copies `POST.json` to the output directory (see `AGENT.md`).
 
 ## Run it locally
@@ -47,3 +51,7 @@ once it is live; the placeholder there now is not a real post.
     mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 `out/POST.json` is then byte for byte this directory's `POST.json`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=f6c1z0pe&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
